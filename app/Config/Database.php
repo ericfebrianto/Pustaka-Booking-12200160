@@ -23,19 +23,19 @@ class Database extends Config
      *
      * @var string
      */
-    public $defaultGroup = 'default';
+    public $defaultGroup = 'koneksiku';
 
     /**
      * The default database connection.
      *
      * @var array
      */
-    public $default = [
+    public $koneksiku = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
-        'database' => '',
+        'database' => 'db_pustaka_booking_12200160',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
