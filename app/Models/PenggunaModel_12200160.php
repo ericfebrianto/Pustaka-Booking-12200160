@@ -13,5 +13,4 @@ class PenggunaModel_12200160 extends Model
     protected $returnType           = 'array';
     protected $protectFields        = true;
     protected $allowedFields        = ['nama', 'password'];
-
 }
