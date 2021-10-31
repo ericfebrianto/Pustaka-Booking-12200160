@@ -25,7 +25,9 @@ class AutoIn implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        //
+        if (session()->sudahLogin) {
+            return redirect()->to('/beranda');
+        }
     }
 
     /**

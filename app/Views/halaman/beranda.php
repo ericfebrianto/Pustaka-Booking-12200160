@@ -1,6 +1,6 @@
 <?=$this->extend('dasar_tampilan')?>
 
-<?=$this->section('WebProgramming')?>
+<?=$this->section('isiweb')?>
 
     <div class="container">
         <div class="card">
