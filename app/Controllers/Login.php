@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\Pengguna12200160;
+use App\Models\PenggunaModel_12200160;
 
 class Login extends BaseController
 {
@@ -31,7 +31,7 @@ class Login extends BaseController
             return redirect()->to('/Login');
         } else {
 
-            $vl = (new Pengguna12200160())->cekLogin($email, $sandi);
+            $vl = (new PenggunaModel_12200160())->cekLogin($email, $sandi);
 
             if ($vl == null) {
                 return redirect()->to('/login')->with('error', 'User dan sandi salah');

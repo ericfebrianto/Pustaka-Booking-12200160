@@ -25,6 +25,5 @@ class Pengguna12200160 extends Model
     {
         return $this->where('nama', $user)
             ->where('password', md5($pass))->first();
-    
-        }
+    }
 }

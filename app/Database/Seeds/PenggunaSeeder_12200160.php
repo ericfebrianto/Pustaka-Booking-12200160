@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Database\Seeds;
 
 use App\Models\PenggunaModel_12200160;
